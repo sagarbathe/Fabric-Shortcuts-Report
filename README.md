@@ -1,11 +1,11 @@
 # Fabric-Shortcuts-Report
 
-** Creating a new repo instead of updating the old one
+** Creating a new repo instead of updating the old one.
 Few updates made from the previous repo
 - This new repo uses wrapper functions from Semantic Link Labs (https://github.com/microsoft/semantic-link-labs). Using the wrapper functions, reduces the code complexity and makes it much easier to maintain.
 - Storing both internal and external shortcuts in one table
-- Created a new report for Duplicate shortcuts across the Fabric tenant. Definition of a duplicate shortcut is : A shortcut created in the same lakehouse and workspace and pointing to the same source (Source can 
-  be internal such as Onelake lakehouse, warehouse of KQL table or external such as same ADLS or S3 path)
+- Created a new report for listing duplicate shortcuts across the Fabric tenant. Definition of a duplicate shortcut is : A shortcut created in the same lakehouse and workspace and pointing to the same source (Source can 
+  be internal such as Onelake lakehouse, warehouse or KQL table or external such as same ADLS or S3 path)
 
 ****************
 Objective:
